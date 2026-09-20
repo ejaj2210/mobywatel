@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0877d1">
+
+    <title>Dokumenty Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="topbar">
+        <button id="backBtn">‹</button>
+
+        <h1 id="pageTitle">Dokumenty</h1>
+
+        <button id="editBtn">✎</button>
+    </header>
+
+
+    <main id="screen"></main>
+
+
+    <nav class="bottom-nav">
+
+        <button class="nav-item active" data-page="home">
+            <span>⌂</span>
+            <small>Start</small>
+        </button>
+
+        <button class="nav-item" data-page="documents">
+            <span>▣</span>
+            <small>Dokumenty</small>
+        </button>
+
+        <button class="nav-item" data-page="services">
+            <span>□</span>
+            <small>Usługi</small>
+        </button>
+
+        <button class="nav-item" data-page="qr">
+            <span>⌗</span>
+            <small>Kod QR</small>
+        </button>
+
+        <button class="nav-item" data-page="more">
+            <span>•••</span>
+            <small>Więcej</small>
+        </button>
+
+    </nav>
+
+</div>
+
+
+<div class="demo-badge">
+    DEMO — NIE JEST DOKUMENTEM
+</div>
+
+
+<div id="modal" class="modal hidden"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
